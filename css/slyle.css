@@ -1,0 +1,44 @@
+body {
+    font-family: 'Nova Mono', monospace;
+}
+
+.text {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.button_m {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-right: 10px;
+    width: 300px;
+    height: 50px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    margin-right: 10px;
+    width: 100px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+	border: 1px solid #cecece;
+	background: grey;
+    border-radius: 8px;
+    outline: 0;
+
+}
+
+button:focus  {
+    outline: 0;
+} 
+
+
